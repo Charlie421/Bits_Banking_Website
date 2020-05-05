@@ -1,0 +1,61 @@
+@font-face{
+    font-family: minecraft;
+    src: url("./fonts/MinecraftRegular-Bmg3.otf");
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+    font-family: minecraft;
+    font-size: 30px;
+}
+
+body{
+    background-image: url("./images/dirt.png");
+    margin-top: 20vh;
+}
+
+.form-container{
+    width: 300px;
+    height: auto;
+    padding: 20px 30px;
+    background-image: url("./images/stone.png");
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+    margin: auto;
+}
+
+ul.list{
+    list-style-type: none;
+    text-align: center;
+}
+
+ul.list li{
+    width: 100%;
+}
+
+ul.list li input{
+    width: 100%;
+    border: none;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    padding: 10px 0px;
+    background-color: #d3d3d3;
+}
+
+ul.list li button{
+    width: 100%;
+    margin-top: 5px;
+    margin-bottom: 3px;
+    background-color: #4690fb;
+    color: #000;
+}
+
+ul.list li button:hover{
+    cursor: pointer;
+}
+
+ul.list li:nth-child(5){
+    color: #FF5555;
+}
